@@ -1,0 +1,38 @@
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    justify-content: center;
+    background-color: rgb(60, 60, 60);
+    padding: 6px;
+}
+li{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+body{
+    background: rgb(244, 222, 192);
+}
+li:hover{
+    color: chocolate;
+}
+img{
+    width: 400px;
+    height: 340px;
+    border-radius: 7px;
+    float:right;
+    margin-right: 15px;
+    position: relative;
+    top: 16px;
+}
+p{
+    margin-left:60px;
+    font-size: 1.4rem;
+    color: rgb(37, 35, 32);
+    text-shadow: 1px 1px 1px ;
+}
+.ai{
+    position: relative;
+    top: 50px;
+}
